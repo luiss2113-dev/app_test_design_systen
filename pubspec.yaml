@@ -47,6 +47,16 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^3.0.0
 
+  #call executing `flutter pub get`
+  atomic_design: 
+    git:
+      url: git@github.com:luiss2113-dev/atomic_package.git
+      ref: main
+
+    
+    #*----   LOCAL ----*
+    #path: ../atomic_design
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

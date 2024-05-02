@@ -9,6 +9,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.11.0"
+  atomic_design:
+    dependency: "direct dev"
+    description:
+      path: "."
+      ref: main
+      resolved-ref: "536e9e9901e4701e3d68381df7c18badff7ae7f7"
+      url: "git@github.com:luiss2113-dev/atomic_package.git"
+    source: git
+    version: "0.0.1"
   boolean_selector:
     dependency: transitive
     description:
@@ -210,3 +219,4 @@ packages:
     version: "13.0.0"
 sdks:
   dart: ">=3.3.4 <4.0.0"
+  flutter: ">=1.17.0"
